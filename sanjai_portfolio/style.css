@@ -1,0 +1,1362 @@
+
+
+* {
+   margin: 0px 0px 0px 0px;
+   border: 0px;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+
+}
+
+/*navigation*/
+.nav {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   background-color: #733636;
+   font-size: 22px;
+   height: 700px;
+   line-height: 60px;
+}
+
+.navbar {
+   position: sticky;
+   top: 0px;
+}
+
+li a {
+   text-decoration: none;
+   color: white;
+}
+
+li {
+   display: inline-flex;
+   margin-right: 30px;
+}
+
+.logo a {
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+}
+
+.logo {
+   margin-top: 0px;
+   margin-left: 20px;
+}
+
+.sidebar {
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   height: 100vh;
+   width: 200px;
+   z-index: 999;
+   color: white;
+   background-color: rgb(42, 147, 163);
+   backdrop-filter: blur(50px);
+   box-shadow: -10px 20px 10px rgba(0, 0, 0, 0.1);
+   display: none;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+
+/*
+.nav .hideonmobile a:hover::after{
+   background: orange;
+   width:5%;
+   transition:1s;
+}
+
+.nav .hideonmobile a::after{
+   content:'';
+   position:absolute;
+   height:3px;
+   width: 0;
+   left: 0;
+   top:40px;
+} */
+
+.sidebar li {
+   width: 60%;
+}
+
+.sidebar a {
+   /* color: black; */
+   margin-bottom: 10px;
+   width: 100%;
+   color: red;
+   font-weight: 600;
+}
+
+.menu-button {
+   display: none;
+}
+
+.container {
+   position: fixed;
+   top: 0px;
+   z-index: 2;
+   width: 100%;
+
+}
+
+.container .nav {
+   height: 80px;
+   width: 100%;
+}
+
+.portfolio .container .nav a:hover {
+   border-bottom: 3px solid rgb(52, 162, 190);
+   transition: .5s;
+   color: rgb(38, 203, 225);
+}
+
+.portfolio .container .nav li a:hover {
+   border-bottom: 3px solid rgb(52, 162, 190);
+   transition: .5s;
+   color: rgb(38, 203, 225);
+}
+
+.portfolio .container .nav li a {
+   position: relative;
+   height: 43px;
+}
+
+.portfolio .container .para {
+   font-size: 40px;
+   position: absolute;
+   top: 45%;
+   left: 40%;
+   color: white;
+}
+
+.portfolio .container .para p:hover {
+   color: aqua;
+}
+
+/*home page */
+
+.portfolio .profile {
+   height: 700px;
+   width: 100%;
+   background-image: url('https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29kaW5nfGVufDB8fDB8fHww');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.portfolio .profile h1 {
+   font-size: 40px;
+   padding-top: 300px;
+   padding-left: 10%;
+   color: rgb(255, 255, 255);
+}
+
+.profile h1 span {
+   color: rgb(224, 224, 68);
+}
+
+.profile .typing {
+   height: 200px;
+   width: 700px;
+   margin-left: 140px;
+}
+
+.profile .typing h2 {
+   color: rgb(255, 255, 255);
+   font-size: 30px;
+   margin-top: 10px;
+}
+
+/*skills-sec1*/
+
+.aboutme .sec1 {
+   border: 0px solid black;
+   width: 80%;
+   height: 550px;
+   margin: 50px auto;
+   padding-top: 10px;
+   background-color: #733636;
+   color: white;
+   border-radius: 20px;
+   box-shadow: -5px -5px 5px 0px #6b6d6d,
+      inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+/* for photo and information*/
+
+.aboutme .sec1 .left-side {
+   /* border: 1px solid black; */
+   width: 50%;
+   height: 250px;
+}
+
+.aboutme .sec1 img {
+   width: 30%;
+   height: 180px;
+   margin: 50px 50px;
+   border-radius: 40%;
+}
+
+.aboutme .sec1 .left-side {
+   display: flex;
+   float: left;
+}
+
+.details {
+   margin-top: 60px;
+   /*  border: 1px solid black; */
+   height: 170px;
+
+}
+
+.details h3 {
+   margin-bottom: 20px;
+}
+
+/*
+.details1 {
+   display: none;
+} */
+
+.left-side h3 span {
+   font-weight: lighter;
+}
+
+.aboutme .sec1 .right-side {
+   margin-top: 35px;
+   width: 50%;
+   height: 799px;
+   border: 0px solid black;
+   float: right;
+   margin-top: -500px;
+}
+
+.aboutme .sec1 .right-side h1 {
+   margin: 20px 439px 15px 0px;
+   font-size: 27px;
+   border-bottom: 2px solid aqua;
+}
+
+.aboutme .sec1 .right-side p {
+   padding: 10px 20px 15px 10px;
+   font-size: 18px;
+   text-align: justify;
+}
+
+.aboutme .sec1 .right-side h2 {
+   font-size: 25px;
+   margin-top: 20px;
+   border-bottom: 2px solid aqua;
+   margin-right: 294px;
+   margin-bottom: 10px;
+}
+
+.aboutme .sec1 .right-side .academic {
+   margin-top: 70px;
+}
+
+/*
+.aboutme .sec1 .right-side .interest li {
+   padding-left: 10px;
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.aboutme .sec1 .right-side .interest h2 {
+   margin-bottom: 30px;
+   margin-right: 390px;
+   margin-top: 50px;
+}  */
+
+.aboutme .sec1 .left-side .skills {
+   position: relative;
+   top: 400px;
+   right: 400px;
+}
+
+.aboutme .sec1 .left-bottom {
+   border: 0px solid black;
+   width: 555px;
+   height: 530px;
+   /* position: absolute; */
+   top: 1035px;
+}
+
+.aboutme .sec1 .left-bottom .skills h2 {
+   font-size: 25px;
+   border-bottom: 2px solid aqua;
+   margin-right: 415px;
+   margin-bottom: 20px;
+}
+
+.aboutme .sec1 .left-bottom .skills {
+   margin: 10px 10px 10px 80px;
+}
+
+.left-bottom .skills .html {
+   display: flex;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.html progress {
+   margin-left: 7px;
+   border-radius: 10px;
+}
+
+.html .per {
+   margin-left: 15px;
+}
+
+.left-bottom .skills .css {
+   display: flex;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.css progress {
+   margin-left: 33px;
+}
+
+.css .per {
+   margin-left: 15px;
+}
+
+.left-bottom .skills .js {
+   display: flex;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.js progress {
+   margin-left: 58px;
+}
+
+.js .per {
+   margin-left: 15px;
+}
+
+.left-bottom .skills .react {
+   display: flex;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.react progress {
+   margin-left: 20px;
+}
+
+.react .per {
+   margin-left: 15px;
+}
+
+/*services*/
+.service .whole {
+   display: flex;
+   width: 100%;
+   border: 0px solid black;
+   position: absolute;
+   margin-top: 90px;
+}
+
+.service:hover {
+   background-image: url('https://media.istockphoto.com/id/1351472483/photo/house-project-in-virtual-reality.jpg?s=612x612&w=0&k=20&c=WD5nBG2kzfNSUqvCOgbVL2E-pfDRzbukzp2pZMWxCjE=');
+   background-repeat: no-repeat;
+   background-size: cover;
+   transition: 2s;
+   color: white;
+}
+
+.service {
+   height: 1000px;
+   border: 0px solid black;
+}
+
+.service h1 {
+   position: absolute;
+   left: 600px;
+   width: 200px;
+   height: 40px;
+}
+
+.service h2 {
+   border: 0px solid blue;
+   width: 350px;
+   height: 40px;
+   position: relative;
+   top: 50px;
+   left: 500px;
+   border-bottom: 3px solid #783e3e;
+}
+
+.portfolio .service .work1 {
+   border: 1px solid black;
+   height: 350px;
+   width: 700px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 50px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+.service .whole .work1 p {
+   width: 350px;
+   height: 150px;
+   border: 0px solid white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.service .whole .work1:hover {
+   transform: scale(1.05);
+}
+
+.service .whole .work1:hover {
+   transition: transform .5s ease;
+}
+
+.service .whole .work1 svg {
+   height: 120px;
+   width: 130px;
+   margin-top: 20px;
+   margin-left: 105px;
+   border: 0px solid wheat;
+   border-radius: 30%;
+}
+
+.service .whole .work1 svg:hover {
+   background-color: rgb(255, 255, 255);
+   transition: 1s;
+   color: rgb(26, 24, 24);
+
+}
+
+.service .whole .work1 h3 {
+   text-align: center;
+}
+
+.portfolio .service .work2 {
+   border: 1px solid black;
+   height: 350px;
+   width: 700px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 50px;
+   color: white;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   transition: transform .5s ease;
+}
+
+.portfolio .service .work2 svg {
+   height: 120px;
+   width: 130px;
+   margin-top: 20px;
+   margin-left: 105px;
+   border: 0px solid wheat;
+   border-radius: 30%;
+}
+
+.service .whole .work2 svg:hover {
+   background-color: rgb(255, 255, 255);
+   transition: 1s;
+   color: rgb(26, 24, 24);
+}
+
+.service .whole .work2:hover {
+   transform: scale(1.05);
+}
+
+.service .whole .work2:hover {
+   transition: transform .5s ease;
+}
+
+.service .whole .work2 h3 {
+   text-align: center;
+}
+
+.portfolio .service .work2 p {
+   width: 350px;
+   height: 150px;
+   border: 0px solid white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.portfolio .service .work3 {
+   border: 1px solid black;
+   height: 350px;
+   width: 700px;
+   position: relative;
+   background-color: #733636;
+   border-radius: 50px;
+   margin: 60px;
+   color: white;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   transition: transform .5s ease;
+}
+
+.portfolio .service .work3 svg {
+   height: 120px;
+   width: 130px;
+   margin-top: 20px;
+   margin-left: 105px;
+   color: white;
+   border: 0px solid wheat;
+   border-radius: 30%;
+}
+
+.service .whole .work3 svg:hover {
+   background-color: rgb(255, 255, 255);
+   transition: 1s;
+   color: rgb(26, 24, 24);
+}
+
+.service .whole .work3:hover {
+   transform: scale(1.05);
+   transition: transform .5s ease;
+}
+
+.service .whole .work3 h3 {
+   text-align: center;
+}
+
+.portfolio .service .work3 p {
+   width: 350px;
+   height: 150px;
+   border: 0px solid white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.service .whole1 {
+   display: flex;
+   width: 100%;
+   border: 0px solid rgb(142, 77, 77);
+   position: relative;
+   top: 300px;
+   margin-top: 90px;
+   margin-bottom: 330px;
+}
+
+.portfolio .service .work4 {
+   border: 1px solid black;
+   height: 350px;
+   width: 700px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 50px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+.portfolio .service .whole1 .work4 svg {
+   height: 120px;
+   width: 130px;
+   margin-top: 20px;
+   margin-left: 105px;
+   border: 0px solid wheat;
+   border-radius: 30%;
+}
+
+.service .whole1 .work4 svg:hover {
+   background-color: rgb(255, 255, 255);
+   transition: 1s;
+   color: rgb(26, 24, 24);
+}
+
+.whole1 .work4 p {
+   width: 350px;
+   height: 150px;
+   border: 0px solid white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.service .whole1 .work4:hover {
+   transition: transform .5s ease;
+   transform: scale(1.05);
+}
+
+.service .whole1 .work4 h3 {
+   text-align: center;
+}
+
+.portfolio .service .work5 {
+   border: 1px solid black;
+   height: 350px;
+   width: 700px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 50px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+.portfolio .service .whole1 .work5 svg {
+   height: 120px;
+   width: 130px;
+   margin-top: 20px;
+   margin-left: 105px;
+   border: 0px solid wheat;
+   border-radius: 30%;
+}
+
+.service .whole1 .work5 svg:hover {
+   background-color: rgb(255, 255, 255);
+   transition: 1s;
+   color: rgb(26, 24, 24);
+}
+
+.whole1 .work5 p {
+   width: 350px;
+   height: 150px;
+   border: 0px solid white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.service .whole1 .work5:hover {
+   transition: transform .5s ease;
+   transform: scale(1.05);
+}
+
+.service .whole1 .work5 h3 {
+   text-align: center;
+}
+
+
+.portfolio .service .work6 {
+   border: 1px solid black;
+   height: 350px;
+   width: 700px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 50px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+
+.portfolio .service .whole1 .work6 svg {
+   height: 120px;
+   width: 130px;
+   margin-top: 20px;
+   margin-left: 105px;
+   border: 0px solid wheat;
+   border-radius: 30%;
+}
+
+.service .whole1 .work6 svg:hover {
+   background-color: rgb(255, 255, 255);
+   transition: 1s;
+   color: rgb(26, 24, 24);
+}
+
+.whole1 .work6 p {
+   width: 350px;
+   height: 150px;
+   border: 0px solid white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 5px;
+}
+
+.service .whole1 .work6:hover {
+   transition: transform .5s ease;
+   transform: scale(1.05);
+}
+
+.service .whole1 .work6 h3 {
+   text-align: center;
+}
+
+/*project*/
+
+.project h1 {
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.project h3 {
+   width: 250px;
+   margin-left: 570px;
+   border-bottom: 3px solid #733636;
+   margin-bottom: 50px;
+}
+
+.portfolio .project .wholeproject {
+   display: flex;
+   margin-bottom: 20px;
+   padding-left: 70px;
+   width: 100%;
+   border: 0px solid black;
+}
+
+.portfolio .project .wholeproject:hover {
+   background-image: url('https://images.unsplash.com/photo-1488229297570-58520851e868?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGlubm92YXRpb258ZW58MHx8MHx8fDA%3D');
+   background-repeat: no-repeat;
+   background-size: cover;
+   transition: 2s;
+}
+
+.portfolio .project .project1 {
+   border: 1px solid black;
+   height: 350px;
+   width: 300px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 5px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+.portfolio .project .project1:hover {
+   /*  transition: transform .5s ease;
+   transform: scale(1.07);*/
+   border: 1px solid white;
+   transform: rotateZ(-10deg);
+   filter: saturate(3);
+}
+
+.project .project1 img {
+   width: 298px;
+   height: 220px;
+   border-radius: 5px;
+   border: 0px solid white;
+}
+
+.project .project1 p {
+   border: 0px solid rgb(8, 179, 195);
+   font-size: 25px;
+   margin-top: 20px;
+   height: 0px;
+}
+
+.project .project1 .con {
+   margin-left: 20px;
+   margin-top: 50px;
+   border: 0px solid white;
+   height: 30px;
+   width: 170px;
+}
+
+.project .project1 .con1 {
+   font-size: 17px;
+   margin-top: 5px;
+   margin-left: 20px;
+   color: aqua;
+   width: 250px;
+   height: 30px;
+   border: 0px solid rgb(0, 0, 0);
+}
+
+.project .project1 .con1 i {
+   margin-left: 130px;
+   font-size: 25px;
+}
+
+.portfolio .project .project2 {
+   border: 1px solid black;
+   height: 350px;
+   width: 300px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 5px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+.portfolio .project .project2:hover {
+   transition: transform .5s ease;
+   transform: scale(1.07);
+   border: 1px solid white;
+   transform: rotateZ(-10deg);
+   filter: saturate(3);
+}
+
+.project .project2 img {
+   width: 298px;
+   height: 220px;
+   border-radius: 5px;
+   border: 0px solid white;
+}
+
+.project .project2 p {
+   border: 0px solid rgb(8, 179, 195);
+   font-size: 25px;
+   margin-top: 20px;
+   height: 0px;
+}
+
+.project .project2 .con {
+   margin-left: 20px;
+   margin-top: 50px;
+   border: 0px solid white;
+   height: 30px;
+   width: 170px;
+}
+
+.project .project2 .con1 {
+   font-size: 17px;
+   margin-top: 5px;
+   margin-left: 20px;
+   color: aqua;
+   width: 250px;
+   height: 30px;
+   border: 0px solid rgb(0, 0, 0);
+}
+
+.project .project2 .con1 i {
+   margin-left: 100px;
+   font-size: 25px;
+}
+
+.portfolio .project .project3 {
+   border: 1px solid black;
+   height: 350px;
+   width: 300px;
+   background-color: #733636;
+   margin: 60px;
+   position: relative;
+   border-radius: 5px;
+   box-shadow: -5px -5px 5px #5f5c5c73,
+      3px 3px 5px rgba(94, 104, 121, .288);
+   color: white;
+   transition: transform .5s ease;
+}
+
+.portfolio .project .project3:hover {
+   transition: transform .5s ease;
+   transform: scale(1.07);
+   border: 1px solid white;
+   transform: rotateZ(-10deg);
+   filter: saturate(3);
+}
+
+.wholeproject:hover>.pro {
+   transform: rotateY(-30deg);
+   transition: transform .5s ease;
+}
+
+.project .project3 img {
+   width: 300px;
+   height: 220px;
+   border-radius: 5px;
+   border: 0px solid white;
+}
+
+.project .project3 p {
+   border: 0px solid rgb(8, 179, 195);
+   font-size: 25px;
+   margin-top: 20px;
+   height: 0px;
+}
+
+.project .project3 .con {
+   margin-left: 20px;
+   margin-top: 50px;
+   border: 0px solid white;
+   height: 30px;
+   width: 170px;
+}
+
+.project .project3 .con1 {
+   font-size: 17px;
+   margin-top: 5px;
+   margin-left: 20px;
+   color: aqua;
+   width: 250px;
+   height: 30px;
+   border: 0px solid rgb(0, 0, 0);
+}
+
+.project .project3 .con1 i {
+   margin-left: 100px;
+   font-size: 25px;
+}
+
+/* contact */
+
+.portfolio .contact {
+   height: 750px;
+   width: 100%;
+   background-color: antiquewhite;
+   margin-bottom: 50px;
+
+}
+
+.contact .contact1 {
+   height: 520px;
+   width: 80%;
+   /* background-color: #2bb1b1;*/
+   margin: auto;
+   top: 70px;
+   bottom: 50px;
+   border: 0px solid blue;
+   position: relative;
+}
+
+.contact h1 {
+   text-align: center;
+   padding-top: 10px;
+}
+
+.contact1 .left {
+   height: 520px;
+   width: 500px;
+   float: left;
+   background-color: #783e3e;
+}
+
+.contact1 .left h2 {
+   font-size: 35px;
+   color: white;
+   padding-top: 20px;
+
+   /*  height: 60px; */
+   text-align: center;
+   width: 209px;
+   margin-bottom: 39px;
+   margin-left: 20px;
+   border-bottom: 3px solid aqua;
+}
+
+.contact1 .left input {
+   height: 40px;
+   width: 400px;
+   border-radius: 10px;
+   margin-left: 55px;
+   border: 1px solid rgb(254, 254, 254);
+   background: transparent;
+   opacity: 1;
+   margin-bottom: 20px;
+}
+
+.contact1 .left input::placeholder {
+   color: white;
+   font-size: 15px;
+   padding-left: 10PX;
+}
+
+.contact .left .subject {
+   height: 90px;
+}
+
+.contact .left button {
+   height: 50px;
+   width: 130px;
+   border-radius: 30px;
+   margin-left: 55px;
+   font-weight: 600;
+   font-size: 18px;
+   background-color: rgb(114, 192, 192);
+}
+
+.contact .left button:hover {
+   cursor: pointer;
+}
+
+.contact .right {
+   height: 520px;
+   width: 615px;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-right: 20px;
+   float: right;
+   color: white;
+   background-color: #783e3e;
+}
+
+.contact .right h1 {
+   border: 0px solid white;
+   width: 172px;
+   border-bottom: 3px solid aqua;
+   margin-bottom: 35px;
+}
+
+.right .details1 {
+   margin-top: 25px;
+   display: flex;
+   margin-bottom: 10px;
+}
+
+.right .details1 p {
+   margin-left: 15px;
+}
+
+.right .details2 {
+   margin-bottom: 10px;
+   display: flex;
+}
+
+.right .details2 p {
+   margin-left: 15px;
+}
+
+.right .details3 {
+   margin-bottom: 10px;
+   display: flex;
+}
+
+.right .details3 p {
+   margin-left: 15px;
+}
+
+.right .logo1 {
+   margin-top: 50px;
+}
+
+.right .logo1 i {
+   color: white;
+   font-size: 30px;
+   margin: 10px;
+   background-color: rgb(149, 91, 91);
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   border-radius: 50%;
+   text-align: center;
+   border: 2px solid rgb(40, 231, 228);
+}
+
+.contact .dec {
+   border: 0px solid blue;
+   margin-top: 100px;
+   text-align: center;
+   font-size: 20px;
+}
+
+.contact .dec span {
+   font-weight: 900;
+}
+
+.wholeproject:hover {
+   filter: brightness(0.9) saturate(1) contrast(1.3) blur(.5px);
+}
+
+.contact .right p {
+   margin-top: 10px;
+}
+
+.contact.right p {
+   line-height: 15px;
+}
+
+.contact .right .details1 i {
+   margin-top: 10px;
+}
+
+.contact .right .details2 i {
+   margin-top: 10px;
+}
+
+.contact .right .details3 i {
+   margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+   /* body {
+      background-image: url('https://images.pexels.com/photos/8092315/pexels-photo-8092315.jpeg?auto=compress&cs=tinysrgb&h=204&fit=crop&w=228&dpr=1');
+      background-repeat: no-repeat;
+      background-size: cover;
+   }  */
+
+   .menu-button {
+      display: block;
+   }
+
+   .hideonmobile {
+      display: none;
+   }
+
+   .portfolio .profile {
+      background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=600');
+      height: 600px;
+      width: 1400px;
+      margin-top: 80px;
+     
+     
+   }
+
+   .portfolio .profile h1 {
+      font-size: 30px;
+      padding-top: 250px;
+      padding-left: 10%;
+      color: rgb(255, 255, 255);
+      
+   }
+
+   .profile h1 span {
+      color: rgb(224, 224, 68);
+   }
+
+   .profile .typing {
+      height: 40px;
+      width: 250px;
+      line-height: 40px;
+      margin-left: 140px;
+      border: 0px solid white;
+      box-shadow: -5px -5px 10px 1px rgb(100, 129, 208);
+    
+   }
+
+   .profile .typing h2 {
+      color: rgb(255, 255, 255);
+      font-size: 23px;
+      margin-top: 10px;
+   }
+
+   .aboutme .sec1 {
+      border: 0px solid black;
+      width: 1350px;
+      height: 120rem;
+      margin: 50px 30px 50px 30px;
+      padding-top: 10px;
+      background-color: #733636;
+      color: white;
+      border-radius: 20px;
+      box-shadow: -10px -10px 3px 0px #6b6d6d,
+         inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+   }
+
+   .aboutme .sec1 .left-side {
+      display: block;
+   }
+
+   .aboutme .sec1 img {
+      width: 350px;
+      height: 350px;
+      margin-top: 50px;
+      margin-left: 100px;
+      border-radius: 10%;
+      box-shadow: -10px -10px 5px antiquewhite;
+
+   }
+
+   .sec1 .left-bottom .skills {
+      position: relative;
+      top: 490px;
+      left: 20px;
+      height: 200px;
+   }
+
+   .aboutme .sec1 .left-bottom .skills h2 {
+      font-size: 45px;
+   }
+
+
+   .skills progress {
+      font-size: 20px;
+   }
+
+   .skills .per {
+      font-size: 25px;
+   }
+
+   .sec1 .left-side.details {
+      position: absolute;
+      left: 250px;
+
+   }
+
+   .details {
+      margin-top: -20px;
+      /*  border: 1px solid black; */
+      height: 170px;
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 25px;
+   }
+
+   .right-side .ri {
+      margin-top: 152%;
+      margin-left: -577px;
+      width: 990px;
+   }
+
+   .right-side .ri h1 {
+      padding-right: 20%;
+      width: max-content;
+      padding: 0px;
+      border: 0px solid white;
+   }
+
+   .right-side .academic {
+      position: relative;
+      left: -575px;
+      border: 0px solid white;
+      width: 990px;
+   }
+
+   .right-side .academic h2 {
+      border: 0px solid white;
+      width: max-content;
+   }
+
+   .aboutme .sec1 .right-side p {
+      font-size: 32px;
+      line-height: 40px;
+      text-align: justify;
+   }
+
+   .aboutme .sec1 .right-side h2 {
+      font-size: 45px;
+   }
+
+   .aboutme .sec1 .right-side h1 {
+      font-size: 45px;
+   }
+
+   .service h2 {
+      border: 0px solid black;
+      width: 450px;
+   }
+
+   .service:hover {
+      background-image: none;
+   }
+
+   .service h1 {
+      color: red;
+   }
+
+   .service h2 {
+      color: rgb(244, 244, 244);
+      border-bottom: 2px solid red;
+      width: max-content;
+   }
+
+   .service .whole .work1 {
+      margin-left: 45px;
+   }
+
+   .service .whole1 .work4 {
+      margin-left: 45px;
+   }
+
+   .service .whole1 {
+      margin-top: 170px;
+   }
+
+   .portfolio .project .wholeproject:hover {
+      background-image: none;
+   }
+
+   .project h1 {
+      text-align: center;
+      border: 0px solid black;
+      margin-left: 600px;
+      color: red;
+   }
+
+   .project h3 {
+      color: white;
+      padding-bottom: 8px;
+      border-bottom: 2px solid red;
+   }
+
+   .portfolio .contact {
+      height: 750px;
+      width: 1400px;
+      background-color: antiquewhite;
+      margin-bottom: 50px;
+   }
+
+   .portfolio .contact .right {
+      width: 579px;
+   }
+
+   .portfolio .contact .con {
+      color: red;
+   }
+
+   .contact .contact1 .left h2 {
+      border: 0px solid red;
+      width: 400px;
+      margin-left: -70px;
+      font-size: 25px;
+   }
+
+   .contact .contact1 .right h1 {
+      border: 0px solid red;
+      width: max-content;
+      font-size: 25px;
+   }
+
+   .contact .right h3 {
+      color: red;
+   }
+
+   .contact .right i:hover {
+      color: tomato;
+   }
+
+   .contact .contact1 .left button {
+      background-color: rgb(230, 43, 43);
+      color: white;
+   }
+
+   .contact .right p {
+      margin-top: 15px;
+      line-height: 21px;
+      width: auto;
+   }
+
+   .contact .right .details1 i {
+      margin-top: 15px;
+   }
+
+   .contact .right .details2 i {
+      margin-top: 18px;
+   }
+
+   .contact .right .details3 i {
+      margin-top: 18px;
+   }
+
+
+   body {
+      background-color: rgb(70, 69, 69);
+   }
+
+}
+
+@media screen and (max-width:700px) {
+   .sidebar {
+      width: 100%;
+   }
+}
+
